@@ -29,7 +29,10 @@ exactly this shape:
 Rules:
 - Map differing column names to the schema (e.g. item_code->sku, qty->quantity, min_stock->reorder_point).
 - below_reorder: every sku whose quantity <= reorder_point.
-- data_issues: flag anything impossible or suspicious (negative quantity, missing fields).
+- - data_issues: flag ONLY objectively impossible values — a negative quantity, a missing or
+  non-numeric quantity or reorder_point, or a missing sku. Do NOT flag stale dates, zero
+  quantities, low stock, or anything that needs judgment; those are handled elsewhere.
+  If every field is present and every quantity is a valid number, data_issues MUST be [].
 - Do not invent items. Report only what is in the data."""
 
 def run_worker(warehouse_id: str, raw_data: str) -> dict:
@@ -58,4 +61,3 @@ if __name__ == "__main__":
         raw = f.read()
     result = run_worker("WH-01", raw)
     print(json.dumps(result, indent=2))
-
