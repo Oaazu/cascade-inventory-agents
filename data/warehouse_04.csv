@@ -1,0 +1,17 @@
+sku,product_name,quantity_on_hand,reorder_point,last_updated
+SKU-1001,Whole Milk 1gal,39,40,2026-09-05
+SKU-1002,Large Eggs Dozen,113,35,2026-07-22
+SKU-1003,White Bread Loaf,61,30,2026-09-01
+SKU-1004,Bananas lb,18,50,2026-09-02
+SKU-1005,Ground Coffee 12oz,7,30,2026-08-31
+SKU-1006,Bottled Water 24pk,37,25,2026-08-29
+SKU-1007,Paper Towels 6pk,60,20,2026-08-29
+SKU-1008,Dish Soap 25oz,28,20,2026-09-01
+SKU-1009,Chicken Breast lb,27,20,2026-09-02
+SKU-1010,Ground Beef lb,105,25,2026-07-15
+SKU-1011,Cheddar Cheese 8oz,78,30,2026-09-01
+SKU-1012,Orange Juice 64oz,105,25,2026-08-30
+SKU-1013,Rice 5lb,84,25,2026-08-30
+SKU-1014,Pasta 16oz,56,30,2026-09-02
+SKU-1015,Tomato Sauce 24oz,27,25,2026-07-16
+SKU-1016,Toilet Paper 12pk,73,20,2026-09-04

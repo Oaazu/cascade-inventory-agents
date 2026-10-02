@@ -1,0 +1,119 @@
+{
+  "warehouse_id": "WH-06",
+  "location": "Phoenix, AZ",
+  "generated": "2026-09-05",
+  "inventory": [
+    {
+      "sku": "SKU-1001",
+      "product": "Whole Milk 1gal",
+      "on_hand": 74,
+      "reorder_at": 40,
+      "updated": "2026-09-04"
+    },
+    {
+      "sku": "SKU-1002",
+      "product": "Large Eggs Dozen",
+      "on_hand": 90,
+      "reorder_at": 35,
+      "updated": "2026-09-01"
+    },
+    {
+      "sku": "SKU-1003",
+      "product": "White Bread Loaf",
+      "on_hand": 117,
+      "reorder_at": 30,
+      "updated": "2026-09-02"
+    },
+    {
+      "sku": "SKU-1004",
+      "product": "Bananas lb",
+      "on_hand": 29,
+      "reorder_at": 50,
+      "updated": "2026-08-31"
+    },
+    {
+      "sku": "SKU-1005",
+      "product": "Ground Coffee 12oz",
+      "on_hand": 3,
+      "reorder_at": 30,
+      "updated": "2026-09-05"
+    },
+    {
+      "sku": "SKU-1006",
+      "product": "Bottled Water 24pk",
+      "on_hand": 86,
+      "reorder_at": 25,
+      "updated": "2026-08-31"
+    },
+    {
+      "sku": "SKU-1007",
+      "product": "Paper Towels 6pk",
+      "on_hand": 72,
+      "reorder_at": 20,
+      "updated": "2026-09-05"
+    },
+    {
+      "sku": "SKU-1008",
+      "product": "Dish Soap 25oz",
+      "on_hand": 24,
+      "reorder_at": 20,
+      "updated": "2026-08-31"
+    },
+    {
+      "sku": "SKU-1009",
+      "product": "Chicken Breast lb",
+      "on_hand": 116,
+      "reorder_at": 20,
+      "updated": "2026-09-01"
+    },
+    {
+      "sku": "SKU-1010",
+      "product": "Ground Beef lb",
+      "on_hand": 40,
+      "reorder_at": 25,
+      "updated": "2026-09-05"
+    },
+    {
+      "sku": "SKU-1011",
+      "product": "Cheddar Cheese 8oz",
+      "on_hand": 40,
+      "reorder_at": 30,
+      "updated": "2026-09-04"
+    },
+    {
+      "sku": "SKU-1012",
+      "product": "Orange Juice 64oz",
+      "on_hand": 20,
+      "reorder_at": 25,
+      "updated": "2026-08-29"
+    },
+    {
+      "sku": "SKU-1013",
+      "product": "Rice 5lb",
+      "on_hand": 114,
+      "reorder_at": 25,
+      "updated": "2026-09-04"
+    },
+    {
+      "sku": "SKU-1014",
+      "product": "Pasta 16oz",
+      "on_hand": 107,
+      "reorder_at": 30,
+      "updated": "2026-09-03"
+    },
+    {
+      "sku": "SKU-1015",
+      "product": "Tomato Sauce 24oz",
+      "on_hand": 26,
+      "reorder_at": 25,
+      "updated": "2026-08-29"
+    },
+    {
+      "sku": "SKU-1016",
+      "product": "Toilet Paper 12pk",
+      "on_hand": 80,
+      "reorder_at": 20,
+      "updated": "2026-09-03"
+    }
+  ]
+}
