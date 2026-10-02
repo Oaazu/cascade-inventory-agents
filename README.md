@@ -95,4 +95,7 @@ Built as a solo portfolio project. The warehouse data is simulated, with deliber
 formats and seeded signals (a network-wide shortage, a stock imbalance, and a data-quality
 error) to exercise each agent.
 
+See [`docs/BEFORE_AFTER.md`](docs/BEFORE_AFTER.md) for the full business case and before/after analysis.
+
+
 Built by [Jeffrey](https://github.com/Oaazu) as a solo portfolio project.
