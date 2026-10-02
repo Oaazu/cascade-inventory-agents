@@ -4,6 +4,17 @@ from agents.synthesizer import run_synthesizer
 from agents.critic import run_critic
 from agents.logger import RunLogger
 from agents.approval import request_approval
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+if not os.getenv("ANTHROPIC_API_KEY"):
+    raise SystemExit(
+        "Error: ANTHROPIC_API_KEY not set.\n"
+        "Create a .env file in the project root with:\n"
+        "    ANTHROPIC_API_KEY=sk-ant-...\n"
+        "See the README for setup."
+    )
 
 
 MAX_RETRIES = 2
