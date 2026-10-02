@@ -3,6 +3,8 @@ from agents.orchestrator import gather_all
 from agents.synthesizer import run_synthesizer
 from agents.critic import run_critic
 from agents.logger import RunLogger
+from agents.approval import request_approval
+
 
 MAX_RETRIES = 2
 
@@ -40,7 +42,14 @@ def run_pipeline() -> dict:
     log_path = logger.save(verdict["verdict"], attempt)
     print(f"    Full exchange logged to {log_path}")
 
-    return {"report": report, "verdict": verdict, "retries_used": attempt}
+    approval = request_approval(report, verdict)
+    logger.log("human_approval", {"verdict": verdict["verdict"]}, approval)
+
+    log_path = logger.save(verdict["verdict"], attempt)
+    print(f"    Full exchange logged to {log_path}")
+
+    return {"report": report, "verdict": verdict, "retries_used": attempt, "approval": approval}
+
 
 
 if __name__ == "__main__":
